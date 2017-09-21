@@ -1,0 +1,30 @@
+{
+  "name": "keep2iron",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.13.1",
+    "enquire": "^0.0.2",
+    "nprogress": "^0.2.0",
+    "rc-banner-anim": "^0.5.16",
+    "rc-queue-anim": "^1.2.2",
+    "rc-scroll-anim": "^1.0.7",
+    "rc-tween-one": "^1.4.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-id-swiper": "^1.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.4.0",
+    "react-app-rewire-less": "^2.0.7",
+    "react-app-rewired": "^1.2.5"
+  }
+}
