@@ -53,6 +53,7 @@ export default class Home extends React.Component {
                 <div className="templates-wrapper">
                     <Nav id="nav_0_0" key="nav_0_0" isMode={this.state.isMode}/>
                     <Route exact path="/index" component={HomeContent}/>
+                    <Redirect from="/" to="/index"/>
                     <Route path="/blog" component={Blog}/>
                     <Route path="/time" component={WrappedRegistrationForm}/>
                     <Footer id="footer_0_0" key="footer_0_0" isMode={this.state.isMode}/>

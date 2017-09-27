@@ -1,1 +1,1 @@
-export const HOST = 'http://http://116.196.96.177:5000/api/'
+export const HOST = 'http://116.196.96.177:5000/api/'
